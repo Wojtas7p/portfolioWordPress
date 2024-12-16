@@ -8,10 +8,10 @@
                 <div class="decoration-box-green"></div>
                 <div class="scrol-photo">
                     <div class="scrol-content">
-                       <?=wp_get_attachment_image( 11 , 'full') ?>
-                       <?=wp_get_attachment_image( 13, 'full') ?>
-                       <?=wp_get_attachment_image( 14 , 'full') ?>
-                       <?=wp_get_attachment_image( 11 , 'full') ?>
+                       <?=wp_get_attachment_image( 23 , 'full') ?>
+                       <?=wp_get_attachment_image( 26, 'full') ?>
+                       <?=wp_get_attachment_image( 25 , 'full') ?>
+                       <?=wp_get_attachment_image( 23 , 'full') ?>
                     </div>
                 </div>
                 
@@ -75,9 +75,9 @@
             </div>
             
             <div class="toolsdiv">
-                <a class="toolsclick" href="https://code.visualstudio.com/" target="_blank"><?=wp_get_attachment_image( 16 , 'full', false, ['class'=>'tools-img']) ?></a>
-                <a class="toolsclick" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><?=wp_get_attachment_image( 10 , 'full',false, ['class'=>'tools-img']) ?></a>
-                <a class="toolsclick" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><?=wp_get_attachment_image( 7 , 'full',false, ['class'=>'tools-img']) ?></a>
+                <a class="toolsclick" href="https://code.visualstudio.com/" target="_blank"><?=wp_get_attachment_image( 28 , 'full', false, ['class'=>'tools-img']) ?></a>
+                <a class="toolsclick" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><?=wp_get_attachment_image( 22 , 'full',false, ['class'=>'tools-img']) ?></a>
+                <a class="toolsclick" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><?=wp_get_attachment_image( 19 , 'full',false, ['class'=>'tools-img']) ?></a>
             </div>
             <div style="clear: both;"></div>
         </section>
