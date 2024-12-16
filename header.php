@@ -11,13 +11,18 @@
   <header>
    
       <nav class="nav-content">
-         <?php wp_nav_menu( array('menu'=> 'header', 'container'=> '', 'menu_class'=> '') ); ?>
             <button title="nav-button" type="button" class="blank"><i class="fas fa-bars"></i></button>
+            <?php wp_nav_menu( array('menu'=> 'header', 'container'=> '', 'menu_class'=> '') ); ?>
             <ul class="link-contener ">
+            <li><a href="#">Home</a></li>
+                    <li><a href="#skills-main">Skills</a></li>
+                    <li><a href="#adds-main">Tools</a></li>
+                    <li><a href="#projects-main">Projects</a></li>
+                    <li><a href="#contact-main">Contact</a></li>
                     <li><a rel="noopener noreferrer" href="https://www.facebook.com/" target="_blank">
-                    <?=wp_get_attachment_image( 8 , 'full',false, ['class'=>'tools-img']) ?></a>
+                    <?=wp_get_attachment_image( 20 , 'full',false, ['class'=>'tools-img']) ?></a>
                      <a rel="noopener noreferrer" href="https://github.com/" target="_blank">
-                     <?=wp_get_attachment_image( 9 , 'full',false, ['class'=>'tools-img']) ?></a></li>
+                     <?=wp_get_attachment_image( 21 , 'full',false, ['class'=>'tools-img']) ?></a></li>
             </ul>
         </nav>
    
